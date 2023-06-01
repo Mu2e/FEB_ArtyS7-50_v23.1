@@ -1,0 +1,5 @@
+xpm_cdc.sv,systemverilog,xpm,../../../../../../../../../Xilinx/Vivado/2023.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv,incdir="../../../../FEB_fabric.gen/sources_1/ip/Trigger_ila/hdl/verilog"
+xpm_memory.sv,systemverilog,xpm,../../../../../../../../../Xilinx/Vivado/2023.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv,incdir="../../../../FEB_fabric.gen/sources_1/ip/Trigger_ila/hdl/verilog"
+xpm_VCOMP.vhd,vhdl,xpm,../../../../../../../../../Xilinx/Vivado/2023.1/data/ip/xpm/xpm_VCOMP.vhd,incdir="../../../../FEB_fabric.gen/sources_1/ip/Trigger_ila/hdl/verilog"
+Trigger_ila.vhd,vhdl,xil_defaultlib,../../../../FEB_fabric.gen/sources_1/ip/Trigger_ila/sim/Trigger_ila.vhd,incdir="../../../../FEB_fabric.gen/sources_1/ip/Trigger_ila/hdl/verilog"
+glbl.v,Verilog,xil_defaultlib,glbl.v

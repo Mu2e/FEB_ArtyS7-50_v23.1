@@ -40,6 +40,7 @@ port (
 	led_4bits_tri_o 	: out std_logic_vector(3 downto 0);
 	rgb_led_tri_o 		: out std_logic_vector(5 downto 0);
 	push_buttons_4bits_tri_i : in std_logic_vector(3 downto 0);
+	sw 					: in std_logic_vector(3 downto 0);
 -- DDR3L pins
 	DDR_DATA			: inout std_logic_vector(DATA_WIDTH-1 downto 0);
 	DDR_ADDR			: out std_logic_vector(DDR3L_ADDR-1 downto 0);
@@ -235,18 +236,18 @@ end process;
 
 
 -- FIFO storing the read data from the DDR
-DDRRdBuff : SCFIFO_1Kx16
-port map (
-	srst 	=> ResetHi,
-	clk		=> SysClk,
-	wr_en	=> DDRRdBuff_wr_en,	
-	rd_en 	=> DDRRdBuff_rd_en, 	
-	din 	=> DDRRdBuff_din, 	
-    dout 	=> DDRRdBuff_dout, 	
-    empty 	=> DDRRdBuff_empty, 	
-	full 	=> DDRRdBuff_full, 	
-	data_count => DDRRdBuff_data_count
-);
+--DDRRdBuff : SCFIFO_1Kx16
+--port map (
+--	srst 	=> ResetHi,
+--	clk		=> SysClk,
+--	wr_en	=> DDRRdBuff_wr_en,	
+--	rd_en 	=> DDRRdBuff_rd_en, 	
+--	din 	=> DDRRdBuff_din, 	
+--    dout 	=> DDRRdBuff_dout, 	
+--    empty 	=> DDRRdBuff_empty, 	
+--	full 	=> DDRRdBuff_full, 	
+--	data_count => DDRRdBuff_data_count
+--);
 
 -- FIFO for buffering one event
 EventBuff : SCFIFO_1Kx16
@@ -313,6 +314,7 @@ begin
 		--else
 		--	DDRRdBuff_wr_en 	<= '0';
 		--end if; 
+		if sw = x"0001" then 
 		counter 			<= counter + '1';		
 		if counter = x"0A10" then -- EVENT 1 33 words
 			EvBuffDat		<= x"0021";
@@ -344,7 +346,7 @@ begin
 		else
 			EvBuffDat		<= x"A0" & counter(7 downto 0);
 		end if; 
-		
+		end if;
 	end if;
 end process;
 

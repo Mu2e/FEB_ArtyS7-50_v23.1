@@ -125,41 +125,13 @@ set rc [catch {
   set_param chipscope.maxJobs 4
   set_param simulator.modelsimInstallPath C:/intelFPGA/20.1/modelsim_ae/win32aloem
   set_param runs.launchOptions { -jobs 16  }
-OPTRACE "create in-memory project" START { }
-  create_project -in_memory -part xc7s50csga324-1
-  set_property board_part_repo_paths {C:/Users/mrigatti/AppData/Roaming/Xilinx/Vivado/2023.1/xhub/board_store/xilinx_board_store} [current_project]
-  set_property board_part digilentinc.com:arty-s7-50:part0:1.1 [current_project]
-  set_property design_mode GateLvl [current_fileset]
-  set_param project.singleFileAddWarning.threshold 0
-OPTRACE "create in-memory project" END { }
-OPTRACE "set parameters" START { }
+  reset_param project.defaultXPMLibraries 
+  open_checkpoint C:/v23.1/Test_DDR_Arty/Test_DDR_Arty.runs/impl_1/TestDDR_wrapper.dcp
   set_property webtalk.parent_dir C:/v23.1/Test_DDR_Arty/Test_DDR_Arty.cache/wt [current_project]
   set_property parent.project_path C:/v23.1/Test_DDR_Arty/Test_DDR_Arty.xpr [current_project]
   set_property ip_output_repo C:/v23.1/Test_DDR_Arty/Test_DDR_Arty.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
   set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
-OPTRACE "set parameters" END { }
-OPTRACE "add files" START { }
-  add_files -quiet C:/v23.1/Test_DDR_Arty/Test_DDR_Arty.runs/synth_1/TestDDR_wrapper.dcp
-  set_msg_config -source 4 -id {BD 41-1661} -limit 0
-  set_param project.isImplRun true
-  add_files C:/v23.1/Test_DDR_Arty/Test_DDR_Arty.srcs/sources_1/bd/TestDDR/TestDDR.bd
-  read_ip -quiet C:/v23.1/Test_DDR_Arty/Test_DDR_Arty.srcs/sources_1/ip/ila_0/ila_0.xci
-  read_ip -quiet C:/v23.1/Test_DDR_Arty/Test_DDR_Arty.srcs/sources_1/ip/DDR3LController/DDR3LController.xci
-  read_ip -quiet C:/v23.1/Test_DDR_Arty/Test_DDR_Arty.srcs/sources_1/ip/SCFIFO_32x256/SCFIFO_32x256.xci
-  read_ip -quiet C:/v23.1/Test_DDR_Arty/Test_DDR_Arty.srcs/sources_1/ip/SCFIFO_1Kx16/SCFIFO_1Kx16.xci
-  set_param project.isImplRun false
-OPTRACE "read constraints: implementation" START { }
-  read_xdc C:/v23.1/Test_DDR_Arty/Test_DDR_Arty.srcs/constrs_1/new/pinout.xdc
-OPTRACE "read constraints: implementation" END { }
-OPTRACE "add files" END { }
-OPTRACE "link_design" START { }
-  set_param project.isImplRun true
-  link_design -top TestDDR_wrapper -part xc7s50csga324-1 
-OPTRACE "link_design" END { }
-  set_param project.isImplRun false
-OPTRACE "gray box cells" START { }
-OPTRACE "gray box cells" END { }
 OPTRACE "init_design_reports" START { REPORT }
 OPTRACE "init_design_reports" END { }
 OPTRACE "init_design_write_hwdef" START { }
@@ -309,4 +281,35 @@ OPTRACE "route_design write_checkpoint" END { }
 
 OPTRACE "route_design misc" END { }
 OPTRACE "Phase: Route Design" END { }
+OPTRACE "Phase: Write Bitstream" START { ROLLUP_AUTO }
+OPTRACE "write_bitstream setup" START { }
+start_step write_bitstream
+set ACTIVE_STEP write_bitstream
+set rc [catch {
+  create_msg_db write_bitstream.pb
+OPTRACE "read constraints: write_bitstream" START { }
+OPTRACE "read constraints: write_bitstream" END { }
+  set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
+  catch { write_mem_info -force -no_partial_mmi TestDDR_wrapper.mmi }
+OPTRACE "write_bitstream setup" END { }
+OPTRACE "write_bitstream" START { }
+  write_bitstream -force TestDDR_wrapper.bit 
+OPTRACE "write_bitstream" END { }
+OPTRACE "write_bitstream misc" START { }
+OPTRACE "read constraints: write_bitstream_post" START { }
+OPTRACE "read constraints: write_bitstream_post" END { }
+  catch {write_debug_probes -quiet -force TestDDR_wrapper}
+  catch {file copy -force TestDDR_wrapper.ltx debug_nets.ltx}
+  close_msg_db -file write_bitstream.pb
+} RESULT]
+if {$rc} {
+  step_failed write_bitstream
+  return -code error $RESULT
+} else {
+  end_step write_bitstream
+  unset ACTIVE_STEP 
+}
+
+OPTRACE "write_bitstream misc" END { }
+OPTRACE "Phase: Write Bitstream" END { }
 OPTRACE "impl_1" END { }

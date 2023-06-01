@@ -18,10 +18,10 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==ila_0 || OR
 # IP: ip/DDR3LController/DDR3LController.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==DDR3LController || ORIG_REF_NAME==DDR3LController} -quiet] -quiet
 
+# IP: ip/FIFO_128x128/FIFO_128x128.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==FIFO_128x128 || ORIG_REF_NAME==FIFO_128x128} -quiet] -quiet
+
 # IP: ip/SCFIFO_1Kx16/SCFIFO_1Kx16.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==SCFIFO_1Kx16 || ORIG_REF_NAME==SCFIFO_1Kx16} -quiet] -quiet
-
-# IP: ip/SCFIFO_32x256/SCFIFO_32x256.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==SCFIFO_32x256 || ORIG_REF_NAME==SCFIFO_32x256} -quiet] -quiet
 
 # XDC: c:/v23.1/Test_DDR_Arty/Test_DDR_Arty.gen/sources_1/bd/TestDDR/TestDDR_ooc.xdc

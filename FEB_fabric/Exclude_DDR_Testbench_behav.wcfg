@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Datapath_Testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Datapath_Testbench" />
+            <top_module name="glbl" />
+            <top_module name="proj_def" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000000 us"></ZoomStartTime>
+      <ZoomEndTime time="833.000000001 us"></ZoomEndTime>
+      <Cursor1Time time="41.068750000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="156"></NameColumnWidth>
+      <ValueColumnWidth column_width="62"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="19" />
+   <wvobject fp_name="/Datapath_Testbench/FEB/SysClk" type="logic">
+      <obj_property name="ElementShortName">SysClk</obj_property>
+      <obj_property name="ObjectShortName">SysClk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_Testbench/FEB/CpldRst" type="logic">
+      <obj_property name="ElementShortName">CpldRst</obj_property>
+      <obj_property name="ObjectShortName">CpldRst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_Testbench/FEB/uCA" type="array">
+      <obj_property name="ElementShortName">uCA[11:0]</obj_property>
+      <obj_property name="ObjectShortName">uCA[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_Testbench/FEB/uCD" type="array">
+      <obj_property name="ElementShortName">uCD[15:0]</obj_property>
+      <obj_property name="ObjectShortName">uCD[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_Testbench/uCWr" type="logic">
+      <obj_property name="ElementShortName">uCWr</obj_property>
+      <obj_property name="ObjectShortName">uCWr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_Testbench/CpldCS" type="logic">
+      <obj_property name="ElementShortName">CpldCS</obj_property>
+      <obj_property name="ObjectShortName">CpldCS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_Testbench/FEB/WRDL" type="array">
+      <obj_property name="ElementShortName">WRDL[1:0]</obj_property>
+      <obj_property name="ObjectShortName">WRDL[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_Testbench/FEB/AFE_Interface/dout_AFE0[0]" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[0][13:0]</obj_property>
+      <obj_property name="ObjectShortName">[0][13:0]</obj_property>
+      <obj_property name="label">DoutAFE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_Testbench/FEB/SlfTrgEn" type="logic">
+      <obj_property name="ElementShortName">SlfTrgEn</obj_property>
+      <obj_property name="ObjectShortName">SlfTrgEn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_Testbench/FEB/AFE_DataPath_inst/TrigReq" type="logic">
+      <obj_property name="ElementShortName">TrigReq</obj_property>
+      <obj_property name="ObjectShortName">TrigReq</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_Testbench/FEB/AFE_DataPath_inst/GateReq" type="array">
+      <obj_property name="ElementShortName">GateReq[1:0]</obj_property>
+      <obj_property name="ObjectShortName">GateReq[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_Testbench/FEB/GateWidth" type="array">
+      <obj_property name="ElementShortName">GateWidth[0:1][11:0]</obj_property>
+      <obj_property name="ObjectShortName">GateWidth[0:1][11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_Testbench/FEB/AFE_DataPath_inst/BufferIn[0][0]" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[0][15:0]</obj_property>
+      <obj_property name="ObjectShortName">[0][15:0]</obj_property>
+      <obj_property name="label">BufferIn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_Testbench/FEB/AFE_DataPath_inst/BufferWE[0][0]" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[0]</obj_property>
+      <obj_property name="ObjectShortName">[0]</obj_property>
+      <obj_property name="label">BufferWE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_Testbench/FEB/AFE_DataPath_inst/Input_Seqs[0][0]" type="other">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[0]</obj_property>
+      <obj_property name="ObjectShortName">[0]</obj_property>
+      <obj_property name="label">Input_Seqs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_Testbench/FEB/AFE_DataPath_inst/BufferOut[0][0]" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[0][15:0]</obj_property>
+      <obj_property name="ObjectShortName">[0][15:0]</obj_property>
+      <obj_property name="label">BufferOut</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_Testbench/FEB/AFE_DataPath_inst/BufferRdAdd[0][0]" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[0][9:0]</obj_property>
+      <obj_property name="ObjectShortName">[0][9:0]</obj_property>
+      <obj_property name="label">BufferRdAdd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_Testbench/FEB/EventBuilder_logic/Event_Builder" type="other">
+      <obj_property name="ElementShortName">Event_Builder</obj_property>
+      <obj_property name="ObjectShortName">Event_Builder</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_Testbench/FEB/EventBuilder_logic/EvBuffDat" type="array">
+      <obj_property name="ElementShortName">EvBuffDat[15:0]</obj_property>
+      <obj_property name="ObjectShortName">EvBuffDat[15:0]</obj_property>
+   </wvobject>
+</wave_config>

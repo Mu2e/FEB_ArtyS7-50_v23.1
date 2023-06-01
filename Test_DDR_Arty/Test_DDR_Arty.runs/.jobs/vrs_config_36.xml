@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="TestDDR_TestDDR_top_0_0_synth_1" LaunchDir="C:/v23.1/Test_DDR_Arty/Test_DDR_Arty.runs/TestDDR_TestDDR_top_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="FIFO_128x128_synth_1"/>
+	</Run>
+	<Run Id="FIFO_128x128_synth_1" LaunchDir="C:/v23.1/Test_DDR_Arty/Test_DDR_Arty.runs/FIFO_128x128_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="C:/v23.1/Test_DDR_Arty/Test_DDR_Arty.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="TestDDR_TestDDR_top_0_0_synth_1"/>
+		<Parent Id="FIFO_128x128_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

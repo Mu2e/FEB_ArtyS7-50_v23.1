@@ -1,0 +1,91 @@
+transcript off
+onbreak {quit -force}
+onerror {quit -force}
+transcript on
+
+vlib work
+vmap -link {C:/v23.1/FEB_fabric/FEB_fabric.cache/compile_simlib/riviera}
+vlib riviera/xpm
+vlib riviera/xil_defaultlib
+
+vlog -work xpm  -incr -l xpm -l xil_defaultlib \
+"C:/Xilinx/Vivado/2023.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv" \
+"C:/Xilinx/Vivado/2023.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv" \
+
+vcom -work xpm -93  -incr \
+"C:/Xilinx/Vivado/2023.1/data/ip/xpm/xpm_VCOMP.vhd" \
+
+vlog -work xil_defaultlib  -incr -v2k5 -l xpm -l xil_defaultlib \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/clocking/mig_7series_v4_2_clk_ibuf.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/clocking/mig_7series_v4_2_infrastructure.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/clocking/mig_7series_v4_2_iodelay_ctrl.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/clocking/mig_7series_v4_2_tempmon.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/controller/mig_7series_v4_2_arb_mux.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/controller/mig_7series_v4_2_arb_row_col.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/controller/mig_7series_v4_2_arb_select.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/controller/mig_7series_v4_2_bank_cntrl.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/controller/mig_7series_v4_2_bank_common.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/controller/mig_7series_v4_2_bank_compare.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/controller/mig_7series_v4_2_bank_mach.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/controller/mig_7series_v4_2_bank_queue.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/controller/mig_7series_v4_2_bank_state.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/controller/mig_7series_v4_2_col_mach.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/controller/mig_7series_v4_2_mc.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/controller/mig_7series_v4_2_rank_cntrl.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/controller/mig_7series_v4_2_rank_common.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/controller/mig_7series_v4_2_rank_mach.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/controller/mig_7series_v4_2_round_robin_arb.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/ecc/mig_7series_v4_2_ecc_buf.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/ecc/mig_7series_v4_2_ecc_dec_fix.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/ecc/mig_7series_v4_2_ecc_gen.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/ecc/mig_7series_v4_2_ecc_merge_enc.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/ecc/mig_7series_v4_2_fi_xor.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/ip_top/mig_7series_v4_2_memc_ui_top_std.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/ip_top/mig_7series_v4_2_mem_intfc.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/phy/mig_7series_v4_2_ddr_byte_group_io.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/phy/mig_7series_v4_2_ddr_byte_lane.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/phy/mig_7series_v4_2_ddr_calib_top.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/phy/mig_7series_v4_2_ddr_if_post_fifo.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/phy/mig_7series_v4_2_ddr_mc_phy.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/phy/mig_7series_v4_2_ddr_mc_phy_wrapper.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/phy/mig_7series_v4_2_ddr_of_pre_fifo.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_4lanes.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_ck_addr_cmd_delay.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_dqs_found_cal.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_dqs_found_cal_hr.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_init.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_ocd_cntlr.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_ocd_data.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_ocd_edge.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_ocd_lim.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_ocd_mux.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_ocd_po_cntlr.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_ocd_samp.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_oclkdelay_cal.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_prbs_rdlvl.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_rdlvl.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_tempmon.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_wrcal.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_wrlvl.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_wrlvl_off_delay.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/phy/mig_7series_v4_2_ddr_prbs_gen.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/phy/mig_7series_v4_2_ddr_skip_calib_tap.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/phy/mig_7series_v4_2_poc_cc.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/phy/mig_7series_v4_2_poc_edge_store.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/phy/mig_7series_v4_2_poc_meta.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/phy/mig_7series_v4_2_poc_pd.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/phy/mig_7series_v4_2_poc_tap_base.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/phy/mig_7series_v4_2_poc_top.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/ui/mig_7series_v4_2_ui_cmd.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/ui/mig_7series_v4_2_ui_rd_data.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/ui/mig_7series_v4_2_ui_top.v" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/ui/mig_7series_v4_2_ui_wr_data.v" \
+
+vcom -work xil_defaultlib -93  -incr \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_top.vhd" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/DDR3LController_mig_sim.vhd" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/DDR3LController.vhd" \
+
+vlog -work xil_defaultlib \
+"glbl.v"
+

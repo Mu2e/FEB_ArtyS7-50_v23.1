@@ -1,0 +1,7 @@
+vhdl xil_defaultlib  \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_top.vhd" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/DDR3LController_mig_sim.vhd" \
+"../../../../ARTY.gen/sources_1/ip/DDR3LController/DDR3LController/user_design/rtl/DDR3LController.vhd" \
+
+# Do not sort compile order
+nosort

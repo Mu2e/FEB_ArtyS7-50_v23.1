@@ -2,7 +2,7 @@
 --Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
---Date        : Tue May 30 16:43:43 2023
+--Date        : Thu Jun  1 15:43:47 2023
 --Host        : CD-135239 running 64-bit major release  (build 9200)
 --Command     : generate_target TestDDR_wrapper.bd
 --Design      : TestDDR_wrapper
@@ -36,6 +36,7 @@ entity TestDDR_wrapper is
     push_buttons_4bits_tri_i_0 : in STD_LOGIC_VECTOR ( 3 downto 0 );
     resetn : in STD_LOGIC;
     rgb_led_tri_o_0 : out STD_LOGIC_VECTOR ( 5 downto 0 );
+    sw_0 : in STD_LOGIC_VECTOR ( 3 downto 0 );
     sys_clock : in STD_LOGIC
   );
 end TestDDR_wrapper;
@@ -65,7 +66,8 @@ architecture STRUCTURE of TestDDR_wrapper is
     push_buttons_4bits_tri_i_0 : in STD_LOGIC_VECTOR ( 3 downto 0 );
     rgb_led_tri_o_0 : out STD_LOGIC_VECTOR ( 5 downto 0 );
     sys_clock : in STD_LOGIC;
-    ddr_clock : in STD_LOGIC
+    ddr_clock : in STD_LOGIC;
+    sw_0 : in STD_LOGIC_VECTOR ( 3 downto 0 )
   );
   end component TestDDR;
 begin
@@ -93,6 +95,7 @@ TestDDR_i: component TestDDR
       push_buttons_4bits_tri_i_0(3 downto 0) => push_buttons_4bits_tri_i_0(3 downto 0),
       resetn => resetn,
       rgb_led_tri_o_0(5 downto 0) => rgb_led_tri_o_0(5 downto 0),
+      sw_0(3 downto 0) => sw_0(3 downto 0),
       sys_clock => sys_clock
     );
 end STRUCTURE;

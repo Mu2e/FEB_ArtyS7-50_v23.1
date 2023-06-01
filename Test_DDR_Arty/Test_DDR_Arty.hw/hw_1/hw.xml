@@ -340,6 +340,154 @@
         <Option Id="LINK_TO_WAVEFORM" value="1"/>
         <Option Id="MAP" value="probe3[127:0]"/>
         <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq128&apos;hXXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[127]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[126]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[125]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[124]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[123]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[122]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[121]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[120]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[119]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[118]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[117]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[116]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[115]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[114]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[113]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[112]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[111]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[110]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[109]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[108]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[107]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[106]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[105]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[104]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[103]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[102]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[101]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[100]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[99]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[98]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[97]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[96]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[95]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[94]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[93]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[92]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[91]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[90]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[89]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[88]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[87]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[86]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[85]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[84]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[83]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[82]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[81]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[80]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[79]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[78]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[77]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[76]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[75]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[74]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[73]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[72]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[71]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[70]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[69]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[68]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[67]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[66]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[65]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[64]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[63]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[62]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[61]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[60]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[59]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[58]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[57]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[56]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[55]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[54]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[53]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[52]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[51]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[50]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[49]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[48]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[47]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[46]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[45]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[44]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[43]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[42]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[41]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[40]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[39]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[38]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[37]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[36]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[35]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[34]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[33]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[32]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[31]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[30]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[29]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[28]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[27]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[26]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[25]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[24]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[23]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[22]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[21]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[20]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[19]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[18]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[17]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[16]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[15]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[14]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[13]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[12]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[11]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[10]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[9]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[8]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[7]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[6]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[5]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[4]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[3]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[2]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[1]"/>
+        <net name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq128&apos;hXXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq128&apos;hXXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe3[127:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
         <Option Id="NAME.SELECT" value="Short"/>
         <Option Id="SOURCE" value="netlist"/>
         <Option Id="TRIGGER_COMPARE_VALUE" value="eq128&apos;hXXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX"/>

@@ -1,0 +1,2 @@
+SCFIFO_1Kx16.v,verilog,xil_defaultlib,../../../../feb_arty.tmp/feb_fabric_v1_0_project/FEB_fabric_v1_0_project.gen/sources_1/ip/SCFIFO_1Kx16/sim/SCFIFO_1Kx16.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

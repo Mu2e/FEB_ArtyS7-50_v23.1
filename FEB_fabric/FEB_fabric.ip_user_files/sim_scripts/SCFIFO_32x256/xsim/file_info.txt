@@ -1,0 +1,2 @@
+SCFIFO_32x256.v,verilog,xil_defaultlib,../../../../feb_arty.tmp/feb_fabric_v1_0_project/FEB_fabric_v1_0_project.gen/sources_1/ip/SCFIFO_32x256/sim/SCFIFO_32x256.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

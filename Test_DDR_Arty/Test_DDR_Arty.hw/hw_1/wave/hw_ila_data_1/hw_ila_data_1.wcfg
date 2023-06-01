@@ -9,17 +9,15 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="683"></ZoomStartTime>
-      <ZoomEndTime time="1,136"></ZoomEndTime>
-      <Cursor1Time time="833"></Cursor1Time>
+      <ZoomStartTime time="0"></ZoomStartTime>
+      <ZoomEndTime time="10"></ZoomEndTime>
+      <Cursor1Time time="0"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
       <NameColumnWidth column_width="190"></NameColumnWidth>
-      <ValueColumnWidth column_width="138"></ValueColumnWidth>
+      <ValueColumnWidth column_width="130"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="13" />
-   <wave_markers>
-   </wave_markers>
+   <WVObjectSize size="12" />
    <wvobject fp_name="TestDDR_i/TestDDR_top_0/U0/DDRSeqStat" type="array">
       <obj_property name="ElementShortName">TestDDR_i/TestDDR_top_0/U0/DDRSeqStat[3:0]</obj_property>
       <obj_property name="ObjectShortName">DDRSeqStat[3:0]</obj_property>
@@ -44,13 +42,6 @@
    <wvobject fp_name="TestDDR_i/TestDDR_top_0/U0/DDR3_en" type="logic">
       <obj_property name="ElementShortName">TestDDR_i/TestDDR_top_0/U0/DDR3_en</obj_property>
       <obj_property name="ObjectShortName">DDR3_en</obj_property>
-      <obj_property name="Radix">HEXRADIX</obj_property>
-      <obj_property name="LABELRADIX">true</obj_property>
-      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
-   </wvobject>
-   <wvobject fp_name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data__0" type="array">
-      <obj_property name="ElementShortName">TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data__0[127:0]</obj_property>
-      <obj_property name="ObjectShortName">DDR3_wrt_data__0[127:0]</obj_property>
       <obj_property name="Radix">HEXRADIX</obj_property>
       <obj_property name="LABELRADIX">true</obj_property>
       <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>

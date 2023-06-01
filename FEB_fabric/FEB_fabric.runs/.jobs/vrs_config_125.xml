@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="AFE_DataPath_ila0_synth_1" LaunchDir="C:/v23.1/FEB_fabric/FEB_fabric.runs/AFE_DataPath_ila0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="AFE_DataPath_ila1_synth_1" LaunchDir="C:/v23.1/FEB_fabric/FEB_fabric.runs/AFE_DataPath_ila1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="AFE_DataPath_ila2_synth_1" LaunchDir="C:/v23.1/FEB_fabric/FEB_fabric.runs/AFE_DataPath_ila2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="AFE_DataPath_ila3_synth_1" LaunchDir="C:/v23.1/FEB_fabric/FEB_fabric.runs/AFE_DataPath_ila3_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="AFEemu_ila_synth_1" LaunchDir="C:/v23.1/FEB_fabric/FEB_fabric.runs/AFEemu_ila_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="AFEemu_synth_1" LaunchDir="C:/v23.1/FEB_fabric/FEB_fabric.runs/AFEemu_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="EVB_ila0_synth_1" LaunchDir="C:/v23.1/FEB_fabric/FEB_fabric.runs/EVB_ila0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Hist_Ram_synth_1" LaunchDir="C:/v23.1/FEB_fabric/FEB_fabric.runs/Hist_Ram_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="LVDSTxBuff_synth_1" LaunchDir="C:/v23.1/FEB_fabric/FEB_fabric.runs/LVDSTxBuff_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Trigger_ila_synth_1" LaunchDir="C:/v23.1/FEB_fabric/FEB_fabric.runs/Trigger_ila_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="iuCD_FIFO_synth_1" LaunchDir="C:/v23.1/FEB_fabric/FEB_fabric.runs/iuCD_FIFO_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="FMDeserializer_Testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="FMDeserializer_Testbench" />
+            <top_module name="glbl" />
+            <top_module name="proj_def" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="9,088.200 ns"></ZoomStartTime>
+      <ZoomEndTime time="9,293.801 ns"></ZoomEndTime>
+      <Cursor1Time time="9,140.625 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="164"></NameColumnWidth>
+      <ValueColumnWidth column_width="66"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/FMDeserializer_Testbench/counter" type="array">
+      <obj_property name="ElementShortName">counter[15:0]</obj_property>
+      <obj_property name="ObjectShortName">counter[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FMDeserializer_Testbench/GPI0" type="logic">
+      <obj_property name="ElementShortName">GPI0</obj_property>
+      <obj_property name="ObjectShortName">GPI0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FMDeserializer_Testbench/Trigger_logic/CpldRst" type="logic">
+      <obj_property name="ElementShortName">CpldRst</obj_property>
+      <obj_property name="ObjectShortName">CpldRst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FMDeserializer_Testbench/Trigger_logic/FMRx1/SysClk" type="logic">
+      <obj_property name="ElementShortName">SysClk</obj_property>
+      <obj_property name="ObjectShortName">SysClk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FMDeserializer_Testbench/Trigger_logic/FMRx1/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FMDeserializer_Testbench/Trigger_logic/FMRx1/Rx_In" type="array">
+      <obj_property name="ElementShortName">Rx_In</obj_property>
+      <obj_property name="ObjectShortName">Rx_In</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FMDeserializer_Testbench/Trigger_logic/FMRx1/data" type="array">
+      <obj_property name="ElementShortName">data[23:0]</obj_property>
+      <obj_property name="ObjectShortName">data[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FMDeserializer_Testbench/Trigger_logic/FMRx1/Rx_Out" type="array">
+      <obj_property name="ElementShortName">Rx_Out</obj_property>
+      <obj_property name="ObjectShortName">Rx_Out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FMDeserializer_Testbench/Trigger_logic/FMRx1/Rx_State" type="other">
+      <obj_property name="ElementShortName">Rx_State</obj_property>
+      <obj_property name="ObjectShortName">Rx_State</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FMDeserializer_Testbench/Trigger_logic/FMRx1/RxBitWdth" type="array">
+      <obj_property name="ElementShortName">RxBitWdth[3:0]</obj_property>
+      <obj_property name="ObjectShortName">RxBitWdth[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FMDeserializer_Testbench/Trigger_logic/FMRx1/RxDl" type="array">
+      <obj_property name="ElementShortName">RxDl[1:0]</obj_property>
+      <obj_property name="ObjectShortName">RxDl[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FMDeserializer_Testbench/Trigger_logic/FMRx1/RxParity" type="logic">
+      <obj_property name="ElementShortName">RxParity</obj_property>
+      <obj_property name="ObjectShortName">RxParity</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FMDeserializer_Testbench/Trigger_logic/FMRx1/Rx_NRZ" type="logic">
+      <obj_property name="ElementShortName">Rx_NRZ</obj_property>
+      <obj_property name="ObjectShortName">Rx_NRZ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FMDeserializer_Testbench/Trigger_logic/FMRx1/Pwidth" type="other">
+      <obj_property name="ElementShortName">Pwidth</obj_property>
+      <obj_property name="ObjectShortName">Pwidth</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FMDeserializer_Testbench/Trigger_logic/FMRx1/RxBtCnt_sig" type="other">
+      <obj_property name="ElementShortName">RxBtCnt_sig</obj_property>
+      <obj_property name="ObjectShortName">RxBtCnt_sig</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,2 @@
+AFEemu.v,verilog,xil_defaultlib,../../../../FEB_fabric.gen/sources_1/ip/AFEemu/sim/AFEemu.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v
