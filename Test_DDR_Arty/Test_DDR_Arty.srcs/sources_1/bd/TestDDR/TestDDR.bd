@@ -1,0 +1,465 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x300E0F9A48E9D94D",
+      "device": "xc7s50csga324-1",
+      "gen_directory": "../../../../Test_DDR_Arty.gen/sources_1/bd/TestDDR",
+      "name": "TestDDR",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2023.1"
+    },
+    "design_tree": {
+      "clk_wiz_0": "",
+      "TestDDR_top_0": ""
+    },
+    "ports": {
+      "resetn": {
+        "type": "rst",
+        "direction": "I"
+      },
+      "BA_0": {
+        "direction": "O",
+        "left": "2",
+        "right": "0"
+      },
+      "CAS_0": {
+        "direction": "O"
+      },
+      "CS_0": {
+        "direction": "O",
+        "left": "0",
+        "right": "0"
+      },
+      "DDR_ADDR_0": {
+        "direction": "O",
+        "left": "13",
+        "right": "0"
+      },
+      "DDR_CKE_0": {
+        "direction": "O",
+        "left": "0",
+        "right": "0"
+      },
+      "DDR_CLKN_0": {
+        "direction": "O",
+        "left": "0",
+        "right": "0"
+      },
+      "DDR_CLKP_0": {
+        "direction": "O",
+        "left": "0",
+        "right": "0"
+      },
+      "DDR_DATA_0": {
+        "direction": "IO",
+        "left": "15",
+        "right": "0"
+      },
+      "DDR_WE_0": {
+        "direction": "O"
+      },
+      "DM_0": {
+        "direction": "O",
+        "left": "1",
+        "right": "0"
+      },
+      "LDQS_N_0": {
+        "direction": "IO"
+      },
+      "LDQS_P_0": {
+        "direction": "IO"
+      },
+      "ODT_0": {
+        "direction": "O",
+        "left": "0",
+        "right": "0"
+      },
+      "RAS_0": {
+        "direction": "O"
+      },
+      "RESET_N_0": {
+        "type": "rst",
+        "direction": "O"
+      },
+      "UDQS_N_0": {
+        "direction": "IO"
+      },
+      "UDQS_P_0": {
+        "direction": "IO"
+      },
+      "led_4bits_tri_o_0": {
+        "direction": "O",
+        "left": "3",
+        "right": "0"
+      },
+      "push_buttons_4bits_tri_i_0": {
+        "direction": "I",
+        "left": "3",
+        "right": "0"
+      },
+      "rgb_led_tri_o_0": {
+        "direction": "O",
+        "left": "5",
+        "right": "0"
+      },
+      "sys_clock": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "FREQ_HZ": {
+            "value": "12000000"
+          },
+          "PHASE": {
+            "value": "0.0"
+          }
+        }
+      },
+      "ddr_clock": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "FREQ_HZ": {
+            "value": "100000000"
+          },
+          "PHASE": {
+            "value": "0.0"
+          }
+        }
+      }
+    },
+    "components": {
+      "clk_wiz_0": {
+        "vlnv": "xilinx.com:ip:clk_wiz:6.0",
+        "xci_name": "TestDDR_clk_wiz_0_2",
+        "xci_path": "ip\\TestDDR_clk_wiz_0_2\\TestDDR_clk_wiz_0_2.xci",
+        "inst_hier_path": "clk_wiz_0",
+        "parameters": {
+          "CLKIN1_JITTER_PS": {
+            "value": "833.33"
+          },
+          "CLKOUT1_JITTER": {
+            "value": "537.526"
+          },
+          "CLKOUT1_PHASE_ERROR": {
+            "value": "613.025"
+          },
+          "CLKOUT1_REQUESTED_OUT_FREQ": {
+            "value": "160.000"
+          },
+          "CLKOUT2_JITTER": {
+            "value": "522.440"
+          },
+          "CLKOUT2_PHASE_ERROR": {
+            "value": "613.025"
+          },
+          "CLKOUT2_REQUESTED_OUT_FREQ": {
+            "value": "200.000"
+          },
+          "CLKOUT2_USED": {
+            "value": "true"
+          },
+          "CLK_IN1_BOARD_INTERFACE": {
+            "value": "sys_clock"
+          },
+          "MMCM_CLKFBOUT_MULT_F": {
+            "value": "50.000"
+          },
+          "MMCM_CLKIN1_PERIOD": {
+            "value": "83.333"
+          },
+          "MMCM_CLKIN2_PERIOD": {
+            "value": "10.0"
+          },
+          "MMCM_CLKOUT0_DIVIDE_F": {
+            "value": "3.750"
+          },
+          "MMCM_CLKOUT1_DIVIDE": {
+            "value": "3"
+          },
+          "NUM_OUT_CLKS": {
+            "value": "2"
+          },
+          "RESET_BOARD_INTERFACE": {
+            "value": "reset"
+          },
+          "RESET_PORT": {
+            "value": "resetn"
+          },
+          "RESET_TYPE": {
+            "value": "ACTIVE_LOW"
+          },
+          "USE_BOARD_FLOW": {
+            "value": "true"
+          },
+          "USE_LOCKED": {
+            "value": "false"
+          }
+        }
+      },
+      "TestDDR_top_0": {
+        "vlnv": "xilinx.com:module_ref:TestDDR_top:1.0",
+        "xci_name": "TestDDR_TestDDR_top_0_0",
+        "xci_path": "ip\\TestDDR_TestDDR_top_0_0\\TestDDR_TestDDR_top_0_0.xci",
+        "inst_hier_path": "TestDDR_top_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "TestDDR_top",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "Clk_100MHz": {
+            "direction": "I"
+          },
+          "SysClk": {
+            "direction": "I"
+          },
+          "CpldRst": {
+            "direction": "I"
+          },
+          "Clk_200MHz": {
+            "direction": "I"
+          },
+          "led_4bits_tri_o": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          },
+          "rgb_led_tri_o": {
+            "direction": "O",
+            "left": "5",
+            "right": "0"
+          },
+          "push_buttons_4bits_tri_i": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "DDR_DATA": {
+            "direction": "IO",
+            "left": "15",
+            "right": "0"
+          },
+          "DDR_ADDR": {
+            "direction": "O",
+            "left": "13",
+            "right": "0"
+          },
+          "BA": {
+            "direction": "O",
+            "left": "2",
+            "right": "0"
+          },
+          "DDR_CKE": {
+            "direction": "O",
+            "left": "0",
+            "right": "0"
+          },
+          "ODT": {
+            "direction": "O",
+            "left": "0",
+            "right": "0"
+          },
+          "CS": {
+            "direction": "O",
+            "left": "0",
+            "right": "0"
+          },
+          "DM": {
+            "direction": "O",
+            "left": "1",
+            "right": "0"
+          },
+          "RAS": {
+            "direction": "O"
+          },
+          "CAS": {
+            "direction": "O"
+          },
+          "DDR_WE": {
+            "direction": "O"
+          },
+          "DDR_CLKP": {
+            "direction": "O",
+            "left": "0",
+            "right": "0"
+          },
+          "DDR_CLKN": {
+            "direction": "O",
+            "left": "0",
+            "right": "0"
+          },
+          "LDQS_P": {
+            "direction": "IO"
+          },
+          "LDQS_N": {
+            "direction": "IO"
+          },
+          "UDQS_P": {
+            "direction": "IO"
+          },
+          "UDQS_N": {
+            "direction": "IO"
+          },
+          "RESET_N": {
+            "type": "rst",
+            "direction": "O"
+          }
+        }
+      }
+    },
+    "nets": {
+      "Net": {
+        "ports": [
+          "DDR_DATA_0",
+          "TestDDR_top_0/DDR_DATA"
+        ]
+      },
+      "Net1": {
+        "ports": [
+          "LDQS_N_0",
+          "TestDDR_top_0/LDQS_N"
+        ]
+      },
+      "Net2": {
+        "ports": [
+          "LDQS_P_0",
+          "TestDDR_top_0/LDQS_P"
+        ]
+      },
+      "Net3": {
+        "ports": [
+          "UDQS_N_0",
+          "TestDDR_top_0/UDQS_N"
+        ]
+      },
+      "Net4": {
+        "ports": [
+          "UDQS_P_0",
+          "TestDDR_top_0/UDQS_P"
+        ]
+      },
+      "TestDDR_top_0_BA": {
+        "ports": [
+          "TestDDR_top_0/BA",
+          "BA_0"
+        ]
+      },
+      "TestDDR_top_0_CAS": {
+        "ports": [
+          "TestDDR_top_0/CAS",
+          "CAS_0"
+        ]
+      },
+      "TestDDR_top_0_CS": {
+        "ports": [
+          "TestDDR_top_0/CS",
+          "CS_0"
+        ]
+      },
+      "TestDDR_top_0_DDR_ADDR": {
+        "ports": [
+          "TestDDR_top_0/DDR_ADDR",
+          "DDR_ADDR_0"
+        ]
+      },
+      "TestDDR_top_0_DDR_CKE": {
+        "ports": [
+          "TestDDR_top_0/DDR_CKE",
+          "DDR_CKE_0"
+        ]
+      },
+      "TestDDR_top_0_DDR_CLKN": {
+        "ports": [
+          "TestDDR_top_0/DDR_CLKN",
+          "DDR_CLKN_0"
+        ]
+      },
+      "TestDDR_top_0_DDR_CLKP": {
+        "ports": [
+          "TestDDR_top_0/DDR_CLKP",
+          "DDR_CLKP_0"
+        ]
+      },
+      "TestDDR_top_0_DDR_WE": {
+        "ports": [
+          "TestDDR_top_0/DDR_WE",
+          "DDR_WE_0"
+        ]
+      },
+      "TestDDR_top_0_DM": {
+        "ports": [
+          "TestDDR_top_0/DM",
+          "DM_0"
+        ]
+      },
+      "TestDDR_top_0_ODT": {
+        "ports": [
+          "TestDDR_top_0/ODT",
+          "ODT_0"
+        ]
+      },
+      "TestDDR_top_0_RAS": {
+        "ports": [
+          "TestDDR_top_0/RAS",
+          "RAS_0"
+        ]
+      },
+      "TestDDR_top_0_RESET_N": {
+        "ports": [
+          "TestDDR_top_0/RESET_N",
+          "RESET_N_0"
+        ]
+      },
+      "TestDDR_top_0_led_4bits_tri_o": {
+        "ports": [
+          "TestDDR_top_0/led_4bits_tri_o",
+          "led_4bits_tri_o_0"
+        ]
+      },
+      "TestDDR_top_0_rgb_led_tri_o": {
+        "ports": [
+          "TestDDR_top_0/rgb_led_tri_o",
+          "rgb_led_tri_o_0"
+        ]
+      },
+      "clk_wiz_0_clk_out1": {
+        "ports": [
+          "clk_wiz_0/clk_out1",
+          "TestDDR_top_0/SysClk"
+        ]
+      },
+      "clk_wiz_0_clk_out2": {
+        "ports": [
+          "clk_wiz_0/clk_out2",
+          "TestDDR_top_0/Clk_200MHz"
+        ]
+      },
+      "ddr_clock_1": {
+        "ports": [
+          "ddr_clock",
+          "TestDDR_top_0/Clk_100MHz"
+        ]
+      },
+      "push_buttons_4bits_tri_i_0_1": {
+        "ports": [
+          "push_buttons_4bits_tri_i_0",
+          "TestDDR_top_0/push_buttons_4bits_tri_i"
+        ]
+      },
+      "resetn_0_1": {
+        "ports": [
+          "resetn",
+          "clk_wiz_0/resetn",
+          "TestDDR_top_0/CpldRst"
+        ]
+      },
+      "sys_clock_1": {
+        "ports": [
+          "sys_clock",
+          "clk_wiz_0/clk_in1"
+        ]
+      }
+    }
+  }
+}

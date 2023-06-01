@@ -1,0 +1,10 @@
+0.7
+2020.2
+May  7 2023
+15:24:31
+C:/v23.1/Test_DDR_Arty/Test_DDR_Arty.sim/sim_1/behav/xsim/glbl.v,1683266558,verilog,,,,glbl,,uvm,,,,,,
+C:/v23.1/Test_DDR_Arty/Test_DDR_Arty.srcs/sim_1/new/Testbench.vhd,1685638273,vhdl,,,,testbench,,,,,,,,
+C:/v23.1/Test_DDR_Arty/Test_DDR_Arty.srcs/sim_1/new/ddr3_model_parameters.vh,1685026470,verilog,,,,,,,,,,,,
+C:/v23.1/Test_DDR_Arty/Test_DDR_Arty.srcs/sources_1/new/Proj_Def.vhd,1685633269,vhdl,C:/v23.1/Test_DDR_Arty/Test_DDR_Arty.srcs/sim_1/new/Testbench.vhd;C:/v23.1/Test_DDR_Arty/Test_DDR_Arty.srcs/sources_1/new/TestDDR_top.vhd,,,proj_def,,,,,,,,
+C:/v23.1/Test_DDR_Arty/Test_DDR_Arty.srcs/sources_1/new/TestDDR_top.vhd,1685649236,vhdl,,,,testddr_top,,,,,,,,
+C:/v23.1/Test_DDR_Arty/imports/ddr3_model.sv,1685468158,systemVerilog,,,C:/v23.1/Test_DDR_Arty/Test_DDR_Arty.srcs/sim_1/new/ddr3_model_parameters.vh,ddr3_model,,uvm,../../../../Test_DDR_Arty.gen/sources_1/bd/TestDDR/ipshared/30ef;../../../../Test_DDR_Arty.srcs/sim_1/new,,,,,

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Testbench" />
+            <top_module name="glbl" />
+            <top_module name="proj_def" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="22,851.500000 ns"></ZoomStartTime>
+      <ZoomEndTime time="23,330.500001 ns"></ZoomEndTime>
+      <Cursor1Time time="23,065.000000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="213"></NameColumnWidth>
+      <ValueColumnWidth column_width="92"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="44" />
+   <wvobject fp_name="/Testbench/targettest/SysClk" type="logic">
+      <obj_property name="ElementShortName">SysClk</obj_property>
+      <obj_property name="ObjectShortName">SysClk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/targettest/CpldRst" type="logic">
+      <obj_property name="ElementShortName">CpldRst</obj_property>
+      <obj_property name="ObjectShortName">CpldRst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/targettest/counter" type="array">
+      <obj_property name="ElementShortName">counter[15:0]</obj_property>
+      <obj_property name="ObjectShortName">counter[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/targettest/EvBuffDat" type="array">
+      <obj_property name="ElementShortName">EvBuffDat[15:0]</obj_property>
+      <obj_property name="ObjectShortName">EvBuffDat[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/targettest/EvBuffWrt" type="logic">
+      <obj_property name="ElementShortName">EvBuffWrt</obj_property>
+      <obj_property name="ObjectShortName">EvBuffWrt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/targettest/EvBuffWdsUsed" type="array">
+      <obj_property name="ElementShortName">EvBuffWdsUsed[10:0]</obj_property>
+      <obj_property name="ObjectShortName">EvBuffWdsUsed[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/targettest/EvBuffRd" type="logic">
+      <obj_property name="ElementShortName">EvBuffRd</obj_property>
+      <obj_property name="ObjectShortName">EvBuffRd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/targettest/EvBuffEmpty" type="logic">
+      <obj_property name="ElementShortName">EvBuffEmpty</obj_property>
+      <obj_property name="ObjectShortName">EvBuffEmpty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/targettest/EvBuffOut" type="array">
+      <obj_property name="ElementShortName">EvBuffOut[15:0]</obj_property>
+      <obj_property name="ObjectShortName">EvBuffOut[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/targettest/current_state" type="other">
+      <obj_property name="ElementShortName">current_state</obj_property>
+      <obj_property name="ObjectShortName">current_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/targettest/EventWdCnt" type="array">
+      <obj_property name="ElementShortName">EventWdCnt[10:0]</obj_property>
+      <obj_property name="ObjectShortName">EventWdCnt[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/targettest/EventData" type="array">
+      <obj_property name="ElementShortName">EventData[127:0]</obj_property>
+      <obj_property name="ObjectShortName">EventData[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/targettest/uBunch" type="array">
+      <obj_property name="ElementShortName">uBunch[31:0]</obj_property>
+      <obj_property name="ObjectShortName">uBunch[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/targettest/DDRPage_rst" type="logic">
+      <obj_property name="ElementShortName">DDRPage_rst</obj_property>
+      <obj_property name="ObjectShortName">DDRPage_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/targettest/DDRPage_din" type="array">
+      <obj_property name="ElementShortName">DDRPage_din[127:0]</obj_property>
+      <obj_property name="ObjectShortName">DDRPage_din[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/targettest/DDRPage_wr_en" type="logic">
+      <obj_property name="ElementShortName">DDRPage_wr_en</obj_property>
+      <obj_property name="ObjectShortName">DDRPage_wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/targettest/DDRPage_wr_data_count" type="array">
+      <obj_property name="ElementShortName">DDRPage_wr_data_count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">DDRPage_wr_data_count[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/targettest/DDRPage_wr_rst_busy" type="logic">
+      <obj_property name="ElementShortName">DDRPage_wr_rst_busy</obj_property>
+      <obj_property name="ObjectShortName">DDRPage_wr_rst_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/targettest/DDRPage_empty" type="logic">
+      <obj_property name="ElementShortName">DDRPage_empty</obj_property>
+      <obj_property name="ObjectShortName">DDRPage_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/targettest/DDRPage_full" type="logic">
+      <obj_property name="ElementShortName">DDRPage_full</obj_property>
+      <obj_property name="ObjectShortName">DDRPage_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/targettest/DDRPage_rd_rst_busy" type="logic">
+      <obj_property name="ElementShortName">DDRPage_rd_rst_busy</obj_property>
+      <obj_property name="ObjectShortName">DDRPage_rd_rst_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/targettest/DDRPage_dout" type="array">
+      <obj_property name="ElementShortName">DDRPage_dout[127:0]</obj_property>
+      <obj_property name="ObjectShortName">DDRPage_dout[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/targettest/DDRPage_rd_en" type="logic">
+      <obj_property name="ElementShortName">DDRPage_rd_en</obj_property>
+      <obj_property name="ObjectShortName">DDRPage_rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/targettest/RdPageWdCnt" type="array">
+      <obj_property name="ElementShortName">RdPageWdCnt[3:0]</obj_property>
+      <obj_property name="ObjectShortName">RdPageWdCnt[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/targettest/DDRPage_rd_data_count" type="array">
+      <obj_property name="ElementShortName">DDRPage_rd_data_count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">DDRPage_rd_data_count[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/targettest/PageWdCnt" type="array">
+      <obj_property name="ElementShortName">PageWdCnt[3:0]</obj_property>
+      <obj_property name="ObjectShortName">PageWdCnt[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/targettest/transferDDR" type="logic">
+      <obj_property name="ElementShortName">transferDDR</obj_property>
+      <obj_property name="ObjectShortName">transferDDR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/targettest/latched_transferDDR" type="logic">
+      <obj_property name="ElementShortName">latched_transferDDR</obj_property>
+      <obj_property name="ObjectShortName">latched_transferDDR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/targettest/rst_transferDDR" type="logic">
+      <obj_property name="ElementShortName">rst_transferDDR</obj_property>
+      <obj_property name="ObjectShortName">rst_transferDDR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/targettest/latched_PageWdCnt" type="array">
+      <obj_property name="ElementShortName">latched_PageWdCnt[3:0]</obj_property>
+      <obj_property name="ObjectShortName">latched_PageWdCnt[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider266">
+      <obj_property name="label">DDR</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/targettest/Clk_50MHz" type="logic">
+      <obj_property name="ElementShortName">Clk_50MHz</obj_property>
+      <obj_property name="ObjectShortName">Clk_50MHz</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/targettest/prev_state" type="other">
+      <obj_property name="ElementShortName">prev_state</obj_property>
+      <obj_property name="ObjectShortName">prev_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/targettest/DDR3_rdy" type="logic">
+      <obj_property name="ElementShortName">DDR3_rdy</obj_property>
+      <obj_property name="ObjectShortName">DDR3_rdy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/targettest/DDR3_wrt_data" type="array">
+      <obj_property name="ElementShortName">DDR3_wrt_data[127:0]</obj_property>
+      <obj_property name="ObjectShortName">DDR3_wrt_data[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/targettest/DDR3_wrt_en" type="logic">
+      <obj_property name="ElementShortName">DDR3_wrt_en</obj_property>
+      <obj_property name="ObjectShortName">DDR3_wrt_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/targettest/DDR3_wrt_end" type="logic">
+      <obj_property name="ElementShortName">DDR3_wrt_end</obj_property>
+      <obj_property name="ObjectShortName">DDR3_wrt_end</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/targettest/DDR3_addr" type="array">
+      <obj_property name="ElementShortName">DDR3_addr[27:0]</obj_property>
+      <obj_property name="ObjectShortName">DDR3_addr[27:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/targettest/DDR3_cmd" type="array">
+      <obj_property name="ElementShortName">DDR3_cmd[2:0]</obj_property>
+      <obj_property name="ObjectShortName">DDR3_cmd[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/targettest/DDR3_en" type="logic">
+      <obj_property name="ElementShortName">DDR3_en</obj_property>
+      <obj_property name="ObjectShortName">DDR3_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/targettest/DDR3_rd_data" type="array">
+      <obj_property name="ElementShortName">DDR3_rd_data[127:0]</obj_property>
+      <obj_property name="ObjectShortName">DDR3_rd_data[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/targettest/DDR3_rd_data_end" type="logic">
+      <obj_property name="ElementShortName">DDR3_rd_data_end</obj_property>
+      <obj_property name="ObjectShortName">DDR3_rd_data_end</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/targettest/DDR3_rd_data_valid" type="logic">
+      <obj_property name="ElementShortName">DDR3_rd_data_valid</obj_property>
+      <obj_property name="ObjectShortName">DDR3_rd_data_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench/targettest/RdPageWdCnt" type="array">
+      <obj_property name="ElementShortName">RdPageWdCnt[3:0]</obj_property>
+      <obj_property name="ObjectShortName">RdPageWdCnt[3:0]</obj_property>
+   </wvobject>
+</wave_config>

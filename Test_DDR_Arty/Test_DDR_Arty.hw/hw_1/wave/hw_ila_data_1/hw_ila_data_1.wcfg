@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/v23.1/Test_DDR_Arty/Test_DDR_Arty.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="683"></ZoomStartTime>
+      <ZoomEndTime time="1,136"></ZoomEndTime>
+      <Cursor1Time time="833"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="190"></NameColumnWidth>
+      <ValueColumnWidth column_width="138"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="13" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject fp_name="TestDDR_i/TestDDR_top_0/U0/DDRSeqStat" type="array">
+      <obj_property name="ElementShortName">TestDDR_i/TestDDR_top_0/U0/DDRSeqStat[3:0]</obj_property>
+      <obj_property name="ObjectShortName">DDRSeqStat[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="TestDDR_i/TestDDR_top_0/U0/DDR3_addr" type="array">
+      <obj_property name="ElementShortName">TestDDR_i/TestDDR_top_0/U0/DDR3_addr[27:0]</obj_property>
+      <obj_property name="ObjectShortName">DDR3_addr[27:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="TestDDR_i/TestDDR_top_0/U0/DDR3_cmd" type="array">
+      <obj_property name="ElementShortName">TestDDR_i/TestDDR_top_0/U0/DDR3_cmd[2:0]</obj_property>
+      <obj_property name="ObjectShortName">DDR3_cmd[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="TestDDR_i/TestDDR_top_0/U0/DDR3_en" type="logic">
+      <obj_property name="ElementShortName">TestDDR_i/TestDDR_top_0/U0/DDR3_en</obj_property>
+      <obj_property name="ObjectShortName">DDR3_en</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data__0" type="array">
+      <obj_property name="ElementShortName">TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_data__0[127:0]</obj_property>
+      <obj_property name="ObjectShortName">DDR3_wrt_data__0[127:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_end" type="logic">
+      <obj_property name="ElementShortName">TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_end</obj_property>
+      <obj_property name="ObjectShortName">DDR3_wrt_end</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_mask" type="array">
+      <obj_property name="ElementShortName">TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_mask[15:0]</obj_property>
+      <obj_property name="ObjectShortName">DDR3_wrt_mask[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_en" type="logic">
+      <obj_property name="ElementShortName">TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_en</obj_property>
+      <obj_property name="ObjectShortName">DDR3_wrt_en</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="TestDDR_i/TestDDR_top_0/U0/DDR3_rd_data" type="array">
+      <obj_property name="ElementShortName">TestDDR_i/TestDDR_top_0/U0/DDR3_rd_data[127:0]</obj_property>
+      <obj_property name="ObjectShortName">DDR3_rd_data[127:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="TestDDR_i/TestDDR_top_0/U0/DDR3_rd_data_end" type="logic">
+      <obj_property name="ElementShortName">TestDDR_i/TestDDR_top_0/U0/DDR3_rd_data_end</obj_property>
+      <obj_property name="ObjectShortName">DDR3_rd_data_end</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="TestDDR_i/TestDDR_top_0/U0/DDR3_rd_data_valid" type="logic">
+      <obj_property name="ElementShortName">TestDDR_i/TestDDR_top_0/U0/DDR3_rd_data_valid</obj_property>
+      <obj_property name="ObjectShortName">DDR3_rd_data_valid</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="TestDDR_i/TestDDR_top_0/U0/DDR3_rdy" type="logic">
+      <obj_property name="ElementShortName">TestDDR_i/TestDDR_top_0/U0/DDR3_rdy</obj_property>
+      <obj_property name="ObjectShortName">DDR3_rdy</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_rdy" type="logic">
+      <obj_property name="ElementShortName">TestDDR_i/TestDDR_top_0/U0/DDR3_wrt_rdy</obj_property>
+      <obj_property name="ObjectShortName">DDR3_wrt_rdy</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+</wave_config>

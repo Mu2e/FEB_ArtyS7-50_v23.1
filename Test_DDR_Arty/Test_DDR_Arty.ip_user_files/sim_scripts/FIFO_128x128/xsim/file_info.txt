@@ -1,0 +1,2 @@
+FIFO_128x128.v,verilog,xil_defaultlib,../../../../Test_DDR_Arty.gen/sources_1/ip/FIFO_128x128/sim/FIFO_128x128.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

@@ -1,0 +1,7 @@
+verilog xil_defaultlib  \
+"../../../../Test_DDR_Arty.gen/sources_1/ip/SCFIFO_1Kx16/sim/SCFIFO_1Kx16.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

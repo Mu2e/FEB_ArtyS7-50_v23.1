@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "fifo_generator_v13_2_8" -L "work" -L "uvm" -L "unisims_ver" -L "unimacro_ver" -L "secureip" -L "xpm" --snapshot "Testbench_behav" "work.Testbench" "work.glbl" -log "elaborate.log" 
